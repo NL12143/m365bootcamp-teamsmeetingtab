@@ -25,3 +25,12 @@ Running through the additional questions:
 - make sure you enable SSO support  
 
 ## Challenge 1: Show Teams tab in the pre/post/during-meeting experience  
+Make your new custom Teams tab show up in the header of the meeting details view of the calendar and an in-meeting panel opened via the unified bar (u-bar).
+![](./assets/PrePostMeetingTab.png)  
+![](./assets/DuringMeetingTab.png)  
+
+## Challenge 2: Show different information in the pre-meeting vs. during meeting vs. post-meeting experience
+Make your custom tab show different information before a meeting vs after a meeting, and also different content during the meeting.  
+
+## Challenge 3: Show different information for attendees vs. presenters  
+Make your custom tab show different information depending on the role of the user during the meeting.  

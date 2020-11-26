@@ -6,9 +6,9 @@
   "packageName": "yoteamsmeeting",
   "developer": {
     "name": "Yannick Reekmans",
-    "websiteUrl": "https://appteamsmeeting.azurewebsites.net",
-    "privacyUrl": "https://appteamsmeeting.azurewebsites.net/privacy.html",
-    "termsOfUseUrl": "https://appteamsmeeting.azurewebsites.net/tou.html"
+    "websiteUrl": "https://appteamsmeeting.azurefd.net",
+    "privacyUrl": "https://appteamsmeeting.azurefd.net/privacy.html",
+    "termsOfUseUrl": "https://appteamsmeeting.azurefd.net/tou.html"
   },
   "name": {
     "short": "yo teams meeting",
@@ -25,7 +25,7 @@
   "accentColor": "#D85028",
   "configurableTabs": [
     {
-      "configurationUrl": "https://appteamsmeeting.azurewebsites.net/meetingTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "configurationUrl": "https://appteamsmeeting.azurefd.net/meetingTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
       "canUpdateConfiguration": true,
       "scopes": [
         "team",
@@ -49,12 +49,12 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "appteamsmeeting.azurewebsites.net"
+    "appteamsmeeting.azurefd.net"
   ],
   "showLoadingIndicator": false,
   "isFullScreen": false,
   "webApplicationInfo": {
     "id": "1f255ad0-6889-45f4-9764-a17f19d5c593",
-    "resource": "api://appteamsmeeting/1f255ad0-6889-45f4-9764-a17f19d5c593"
+    "resource": "api://appteamsmeeting.azurefd.net/1f255ad0-6889-45f4-9764-a17f19d5c593"
   }
 }
