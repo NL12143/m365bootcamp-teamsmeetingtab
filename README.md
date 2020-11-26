@@ -24,5 +24,4 @@ Running through the additional questions:
 - make sure you select both `In a Team` and `In a group chat` scope  
 - make sure you enable SSO support  
 
-## Challenge 1: Show Teams tab in the pre/post-meeting experience
-
+## Challenge 1: Show Teams tab in the pre/post/during-meeting experience  
