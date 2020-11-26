@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "8760f060-3031-11eb-8cc1-c9e91c0f808f",
+  "version": "0.0.1",
+  "packageName": "yoteamsmeeting",
+  "developer": {
+    "name": "Yannick Reekmans",
+    "websiteUrl": "https://appteamsmeeting.azurewebsites.net",
+    "privacyUrl": "https://appteamsmeeting.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://appteamsmeeting.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "yo teams meeting",
+    "full": "yo teams meeting"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://appteamsmeeting.azurewebsites.net/meetingTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ],
+      "context": [
+        "channelTab",
+        "privateChatTab",
+        "meetingChatTab",
+        "meetingDetailsTab",
+        "meetingSidePanel"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "appteamsmeeting.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": false,
+  "webApplicationInfo": {
+    "id": "1f255ad0-6889-45f4-9764-a17f19d5c593",
+    "resource": "api://appteamsmeeting/1f255ad0-6889-45f4-9764-a17f19d5c593"
+  }
+}
